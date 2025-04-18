@@ -46,6 +46,7 @@ from django.db.models import Q, F, Avg
 from django.contrib.postgres.search import TrigramSimilarity
 from django.db.models import F, FloatField, ExpressionWrapper, Q, DecimalField
 from decimal import Decimal
+from storages.backends.s3boto3 import S3Boto3Storage
 from .serializers import ReviewSerializer, AdSerializer, HelpRequestSerializer, NotificationSerializer
 
 
